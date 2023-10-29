@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Design</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/bd2b93a447.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body class="font-poppins">
+
+    <!-- Navbar -->
+
+    <header
+        class="flex flex-wrap justify-between p-4 bg-indigo-900 text-slate-100 fixed  w-full  z-[9999] lg:justify-around">
+        <div class="flex gap-2 justify-center items-center">
+            <img src="img/logo.png" alt="Logo_junior_design" class="w-12 rounded-md">
+            <h1 class="font-bold">Junior Design</h1>
+        </div>
+
+        <nav class="hidden lg:block mt-3">
+            <ul class="flex gap-5">
+                <li class="group flex flex-col justify-center items-center">
+                    <a href="#home" class="transition-all duration-300 hover:text-orange-300">Home </a>
+                    <hr class="underline-link">
+                </li>
+                <li class="group flex flex-col justify-center items-center">
+                    <a href="#service" class="transition-all duration-300 hover:text-orange-300">Service</a>
+                    <hr class="underline-link">
+                </li>
+                <li class="group flex flex-col justify-center items-center">
+                    <a href="#about" class="transition-all duration-300 hover:text-orange-300">About</a>
+                    <hr class="underline-link">
+                </li>
+                <li class="group flex flex-col justify-center items-center">
+                    <a href="#portfolio" class="transition-all duration-300 hover:text-orange-300">Portfolio</a>
+                    <hr class="underline-link">
+                </li>
+                <li class="group flex flex-col justify-center items-center">
+                    <a href="#testimoni" class="transition-all duration-300 hover:text-orange-300">Testimoni</a>
+                    <hr class="underline-link">
+                </li>
+                <li>
+                    <a href="#"
+                        class="bg-orange-600 px-6 py-2 rounded-lg transition-all duration-300 hover:bg-orange-700"><i
+                            class="fa-brands fa-whatsapp"></i> Pesan Sekarang</a>
+                </li>
+            </ul>
+        </nav>
+
+        <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
+            <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+            <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+        </button>
+
+        <div
+            class="nav-menu absolute right-0 top-20 z-10 mt-30 bg-indigo-900 text-slate-100 px-4 h-52 rounded-bl-lg translate-x-full transition-all duration-300">
+            <ul class="flex flex-col">
+                <li class="group flex flex-col justify-center items-center mb-2">
+                    <a href="#home" class="transition-all duration-300 hover:text-orange-300">Home </a>
+
+                </li>
+                <li class="group flex flex-col justify-center items-center mb-2">
+                    <a href="#service" class="transition-all duration-300 hover:text-orange-300">Service</a>
+                </li>
+                <li class="group flex flex-col justify-center items-center mb-2">
+                    <a href="#about" class="transition-all duration-300 hover:text-orange-300">About</a>
+                </li>
+                <li class="group flex flex-col justify-center items-center mb-2">
+                    <a href="#portfolio" class="transition-all duration-300 hover:text-orange-300">Portfolio</a>
+                </li>
+                <li class="group flex flex-col justify-center items-center">
+                    <a href="#testimoni" class="transition-all duration-300 hover:text-orange-300">Testimoni</a>
+                </li>
+                <li class="mt-4">
+                    <a href="#"
+                        class="bg-orange-600 px-6 py-2 rounded-lg transition-all duration-300 hover:bg-orange-700"><i
+                            class="fa-brands fa-whatsapp"></i> Pesan Sekarang</a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+
+
+    <!-- Navbar -->
+
+
+    <!-- Hero Section -->
+
+    <section id="home" class=" bg-indigo-900 text-slate-100">
+        <div class="px-10 py-24">
+            <div class="flex flex-wrap justify-center items-center lg:flex-row-reverse">
+                <div class="w-full lg:w-1/3">
+                    <img src="img/hero/hero.png" alt="hero" class="md:ml-24">
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <h1 class="font-bold text-2xl md:text-3xl">Tim <span class="text-orange-600">Junior Design</span>.
+                    </h1>
+                    <p class="font-light py-2 mb-4">Kami ahli dalam mentransformasikan bisnis tradisonal menjadi bisni
+                        digial atau mengoptimasi bisnis di gital Anda. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Tenetur laborum tempora placeat accusamus rem nemo.</p>
+                    <button
+                        class="bg-orange-600 px-6 py-2 rounded-lg transition-all duration-150 hover:bg-orange-700"><i
+                            class="fa-brands fa-whatsapp"></i> Pesan Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+
+    <!-- Feature Section -->
+
+    <section id="feature"
+        class="bg-white relative shadow-lg w-[17rem] py-2 rounded-lg left-1/2 -translate-x-1/2 bottom-12 z-10  lg-feature">
+        <div class="flex flex-col flex-wrap justify-center items-center gap-2">
+            <div class="w-full">
+                <h2 class="text-xl font-bold text-center">Feature In:</h2>
+            </div>
+
+            <div class="w-full">
+                <div class="flex justify-center items-center">
+                    <img src="img/feature/smkn2.png" alt="smkn2pku" class="w-14 grayscale opacity-50 mx-2 transition-all duration-500 hover:grayscale-0">
+                    <img src="img/feature/birru.png" alt="birru" class="w-14 grayscale opacity-50 mx-2 transition-all duration-500 hover:grayscale-0">
+                    <img src="img/feature/unri.webp" alt="unri" class="w-14 grayscale opacity-50 mx-2 transition-all duration-500 hover:grayscale-0">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+
+
+    <!-- Service Section -->
+    <section id="service" class="service  pt-32">
+
+        <div class="px-10">
+            <div class="flex justify-center">
+                <h2 class="text-2xl font-bold">Our <span class="text-orange-600">Service</span></h2>
+                <hr>
+            </div>
+        </div>
+
+
+        <div class="px-10 -mt-24">
+            <div class="flex flex-col mx-auto bg-white">
+                <div class="w-full draggable">
+                    <div class="container flex flex-col items-center gap-16 mx-auto my-32">
+                        <div class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+                            <div
+                                class="flex flex-col items-center gap-3 px-8 py-10 bg-slate-100 rounded-3xl shadow-lg tilt-js">
+                                <span class="bg-orange-300 p-4 rounded-full bg-opacity-50">
+                                    <i class="fa-solid fa-code text-3xl text-orange-600"></i>
+                                </span>
+                                <p class="text-2xl font-extrabold text-dark-grey-900">Software Application</p>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, ad! Culpa veniam
+                                    quasi aut voluptate!</p>
+                            </div>
+
+                            <div
+                                class="flex flex-col items-center gap-3 px-8 py-10 bg-slate-100 rounded-3xl shadow-lg tilt-js">
+                                <span class="bg-purple-300 p-4 rounded-full bg-opacity-50">
+                                    <i class="fa-solid fa-globe text-3xl text-purple-600"></i>
+                                </span>
+                                <p class="text-2xl font-extrabold text-dark-grey-900">Web Application</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, earum? Quia
+                                    dolores quod nobis a temporibus quo eaque</p>
+                            </div>
+
+                            <div
+                                class="flex flex-col items-center gap-3 px-8 py-10 bg-slate-100 rounded-3xl shadow-lg tilt-js">
+                                <span class="bg-[#581ff8] p-4 rounded-full bg-opacity-30">
+                                    <i class="fa-solid fa-pen-nib text-3xl text-[#581ff8]"></i>
+                                </span>
+                                <p class="text-2xl font-extrabold text-dark-grey-900">Product Design</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi accusantium
+                                    incidunt, ipsa deserunt iste nemo..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Section -->
+
+    <!-- about section start -->
+    <section id="about" class="pt-32 pb-32 ">
+
+        <div class="flex flex-wrap flex-col-reverse justify-center items-center text-center lg:flex-row lg:text-right">
+            <div class="w-full mb-10 px-3 lg:px-0 lg:w-1/2 max-w-md">
+                <h4 class="font-bold uppercase text-orange-600 text-lg mg-3">About Us!</h4>
+                <h2 class="font-bold text-dark text-3xl mb-4 max-w-md lg:text-4xl">We Are Junior Designer!</h2>
+                <p class="font-medium  text-slate-500 text-lg max-w-xl md:text-lg">Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Quasi magni, cum enim dolore magnam aperiam!</p>
+                <p class="font-medium  text-slate-500 text-lg max-w-xl md:text-lg">Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Quasi magni, cum enim dolore magnam aperiam!</p>
+            </div>
+            <div class="w-full lg:w-1/2">
+                <img src="img/gambar.jpg" alt="about me" class="-mt-20" loading="lazy">
+            </div>
+        </div>
+
+    </section>
+    <!-- about section end -->
+
+    <!-- portolio start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+        <div class="">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-orange-600 mb-2">Portofolio</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 ">Our Project</h2>
+                    <p class="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Porro fugit doloremque quidem amet eaque consequuntur ratione ea vel cumque nobis.</p>
+                </div>
+            </div>
+
+            <div class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12">
+                <div class="mb-12 mx-4 md:w-1/3 shadow-lg rounded-lg tilt-js">
+                    <div class="overflow-hidden rounded-t-lg shadow-lg">
+                        <img src="img/portofolio/img-1.jpg" alt="Landing Page" width="w-full" loading="lazy"/>
+                    </div>
+                    <div class="px-4 pb-4">
+                        <h3 class="mt-5 mb-3 text-xl font-semibold text-orange-600">Web Design</h3>
+                        <p class="text-base font-medium text-secondary">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing
+                            elit. Eius, iusto! Aliquam, corporis.</p>
+                    </div>
+                </div>
+                <div class="mb-12 mx-4 md:w-1/3 shadow-lg rounded-lg tilt-js">
+                    <div class="overflow-hidden rounded-t-lg shadow-lg">
+                        <img src="img/portofolio/img-2.jpg" alt="E-Commerce" width="w-full" loading="lazy"/>
+                    </div>
+                    <div class="px-4 pb-4">
+                        <h3 class="mt-5 mb-3 text-xl font-semibold text-orange-600">Front End Developer</h3>
+                        <p class="text-base font-medium text-secondary">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing
+                            elit. Eius, iusto! Aliquam, corporis.</p>
+                    </div>
+                </div>
+                <div class="mb-12 mx-4 md:w-1/3 shadow-lg rounded-lg tilt-js">
+                    <div class="overflow-hidden rounded-t-lg shadow-lg">
+                        <img src="img/portofolio/img-3.jpg" alt="Technical Documentation" width="w-full" loading="lazy"/>
+                    </div>
+                    <div class="px-4 pb-4">
+                        <h3 class="mt-5 mb-3 text-xl font-semibold text-orange-600">Web Developer</h3>
+                        <p class="text-base font-medium text-secondary">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing
+                            elit. Eius, iusto! Aliquam, corporis.</p>
+                    </div>
+                </div>
+                <div class="mb-12 mx-4 md:w-1/3 shadow-lg rounded-lg tilt-js">
+                    <div class="overflow-hidden rounded-t-lg shadow-lg">
+                        <img src="img/portofolio/img-4.jpg" alt="Tribute Page" width="w-full" loading="lazy"/>
+                    </div>
+                    <div class="px-4 pb-4">
+                        <h3 class="mt-5 mb-3 text-xl font-semibold text-orange-600">Data Science</h3>
+                        <p class="text-base font-medium text-secondary">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing
+                            elit. Eius, iusto! Aliquam, corporis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portofolio end -->
+
+
+
+
+    <!-- Commenter -->
+
+    <section id="testimoni">
+        <div class="px-10 py-24">
+
+            <div class="px-4 py-6">
+                <div class="flex justify-center">
+                    <h2 class="text-2xl font-bold">Our <span class="text-orange-600">Testimoni</span></h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="px-4 py-6 ">
+
+                <div class="swiper w-full py-12">
+                    <div class="swiper-wrapper">
+
+                        <div
+                            class="bg-slate-100 w-full rounded-lg overflow-hidden shadow-lg swiper-slide md:w-1/2 lg:w-1/3">
+                            <img class="w-36 mt-8 mx-auto rounded-full" src="img/user/user.png"
+                                alt="Kafe Sederhana - Web Desain" loading="lazy" />
+                            <div class="px-6 py-4">
+                                <h4 class="font-bold text-lg mb-2">Budi Hartono</h4>
+                                <p class="text-gray-600 font-light">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptas quasi
+                                    itaque.
+                                </p>
+                                <div class="staro">
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star "></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-slate-100 w-full rounded-lg overflow-hidden shadow-lg swiper-slide md:w-1/2 lg:w-1/3">
+                            <img class="w-36 mt-8 mx-auto rounded-full" src="img/user/user.png"
+                                alt="Kafe Sederhana - Web Desain" loading="lazy" />
+                            <div class="px-6 py-4">
+                                <h4 class="font-bold text-lg mb-2">Joko Putra Wirawan</h4>
+                                <p class="text-gray-600 font-light">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptas quasi
+                                    itaque.
+                                </p>
+                                <div class="staro">
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-slate-100 w-full rounded-lg overflow-hidden shadow-lg swiper-slide md:w-1/2 lg:w-1/3">
+                            <img class="w-36 mt-8 mx-auto rounded-full" src="img/user/user.png"
+                                alt="Kafe Sederhana - Web Desain" loading="lazy" />
+                            <div class="px-6 py-4">
+                                <h4 class="font-bold text-lg mb-2">Muhammad Anwar</h4>
+                                <p class="text-gray-600 font-light">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptas quasi
+                                    itaque.
+                                </p>
+                                <div class="staro">
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star "></i>
+                                    <i class="fa fa-star "></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-slate-100 w-full rounded-lg overflow-hidden shadow-lg swiper-slide md:w-1/2 lg:w-1/3">
+                            <img class="w-36 mt-8 mx-auto rounded-full" src="img/user/user.png"
+                                alt="Kafe Sederhana - Web Desain" loading="lazy" />
+                            <div class="px-6 py-4">
+                                <h4 class="font-bold text-lg mb-2">Putri Indah Sari</h4>
+                                <p class="text-gray-600 font-light">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptas quasi
+                                    itaque.
+                                </p>
+                                <div class="staro">
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star "></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-slate-100 w-full rounded-lg overflow-hidden shadow-lg swiper-slide md:w-1/2 lg:w-1/3">
+                            <img class="w-36 mt-8 mx-auto rounded-full" src="img/user/user.png"
+                                alt="Kafe Sederhana - Web Desain" loading="lazy" />
+                            <div class="px-6 py-4">
+                                <h4 class="font-bold text-lg mb-2">RAZ 12</h4>
+                                <p class="text-gray-600 font-light">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptas quasi
+                                    itaque.
+                                </p>
+                                <div class="staro">
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                    <div
+                        class="swiper-button-prev hidden text-orange-500 transition-all duration-300 hover:text-orange-700 lg:block">
+                    </div>
+                    <div
+                        class="swiper-button-next hidden text-orange-500 transition-all duration-300 hover:text-orange-700 lg:block">
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Commenter -->
+
+    <!-- footer start -->
+
+    <footer class="px-8 py-24 bg-slate-900 text-slate-100">
+        <div class="w-full p-4">
+            <div class="flex flex-wrap gap-0">
+                <div class="w-full md:w-1/2">
+                    <h4 class="text-xl font-bold">Junior Design</h4>
+                    <p class="mt-4">Jl. Pattimura, Cinta Raja, Kec. Sail, Kota Pekanbaru, Riau 28131</p>
+                    <p class="mt-2">(+62) 82289887273</p>
+                    <p class="mt-2">juniorDesign_web@outlook.com</p>
+                    <p class="mt-8">&copy; Junior Design 2023</p>
+                </div>
+
+                <div class="w-full md:w-1/4">
+                    <div class="flex flex-col">
+                        <h4 class="text-xl font-bold">Feature</h4>
+                        <a href="#home" class="mt-4 transition-all duration-300 hover:text-orange-500">Home</a>
+                        <a href="#service" class="mt-2 transition-all duration-300 hover:text-orange-500">Service</a>
+                        <a href="#about" class="mt-2 transition-all duration-300 hover:text-orange-500">About</a>
+                        <a href="#portfolio" class="mt-2 transition-all duration-300 hover:text-orange-500">Portfolio</a>
+                        <a href="#testimoni" class="mt-2 transition-all duration-300 hover:text-orange-500">Testimoni</a>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/4">
+                    <div class="flex flex-col">
+                        <h4 class="text-xl font-bold">Follow Us</h4>
+                        <div class="flex gap-4 text-3xl mt-4">
+                            <a href="#" class="brands">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="#" class="brands">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#" class="brands">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" class="brands">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a href="#" class="brands">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".swiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            loop: true,
+            navigation: true,
+            slidesPerView: "auto",
+            autoplay: true,
+            autoplayDelay:"2500",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+
+        $('.tilt-js').tilt({
+            glare: true,
+            maxGlare: 0.5
+        })
+    </script>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
